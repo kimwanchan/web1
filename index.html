@@ -3,15 +3,30 @@
 <head>
   <title>WEB1 - Welcome</title>
   <meta charset="utf-8">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <h1><a href="index.html">WEB</a></h1>
+  <input type="button" value="night" onclick="
+  var target = document.querySelector('body')
+    if(this.value ==='night'){
+    target.style.backgroundColor='black';
+    target.style.color='white';
+    this.value ='day';
+  }
+    else {
+      target.style.backgroundColor='white';
+      target.style.color='black';
+      this.value ='night';
+  }
+  ">
+  <div id="grid">
   <ol>
     <li><a href="html.html">HTML</a></li>
     <li><a href="CSS.html">CSS</a></li>
 <li><a href="JavaScript.html">JavaScript</a></li>
-  </ol>
-  <h2>WEB</h2>
+<li><a href="gps1.html">GPS 공부</a></li>
+  </ol>  <h2>WEB</h2>
   <p>The World Wide Web (abbreviated WWW or the Web) is an information space where documents and other web resources are identified by Uniform Resource Locators (URLs), interlinked by hypertext links, and can be accessed via the Internet.[1] English scientist Tim Berners-Lee invented the World Wide Web in 1989. He wrote the first web browser computer program in 1990 while employed at CERN in Switzerland.[2][3] The Web browser was released outside of CERN in 1991, first to other research institutions starting in January 1991 and to the general public on the Internet in August 1991.
   </p>
 </body>

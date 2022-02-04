@@ -1,0 +1,75 @@
+<!doctype html>
+<html>
+<head>
+  <title>WEB1 - GPS</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1><a href="index.html">WEB</a></h1>
+  <input type="button" value="night" onclick="
+  var target = document.querySelector('body')
+    if(this.value ==='night'){
+    target.style.backgroundColor='black';
+    target.style.color='white';
+    this.value ='day';
+  }
+    else {
+      target.style.backgroundColor='white';
+      target.style.color='black';
+      this.value ='night';
+  }
+  ">
+  <div id="grid">
+  <ol>
+    <li><a href="html.html">HTML</a></li>
+    <li><a href="CSS.html">CSS</a></li>
+<li><a href="JavaScript.html">JavaScript</a></li>
+<li><a href="gps1.html">GPS 공부</a></li>
+  </ol>
+  <div id="article">
+  <h2>GPS</h2>
+  <p>
+    여기에서는 1995년에 완전 가동이 선언된 그리고 최초의 GNSS(Global Navigation Satellite System) 인 미국 GPS(Global Positioning System)에 대한 개요를 설명합니다.
+    먼저, 우주부분에 대한 설명으로 시작하는데, 각각위성의 주요특성들도 포함합니다.
+    그런 다음, 제어부분에 대한 개요를 안내하며, 운영과 기능의 발전에 대한 내용을 포함합니다.
+    그 다음에는 현재와 미래의 GPS 신호의 개요와 내비게이션 데이터에 대한 설명이 이어집니다.
+    그런 다음 GPS에서 사용하는 시간 및 좌표계에 대해 설명합니다.
+    이 장은 GPS의 서비스 및 성능에 대한 간략한 설명으로 마무리됩니다.
+  </p>
+<p>
+  GPS는 미국에서 운영하는 위성내비게이션 시스템 입니다.
+이 시스템은 중간 고도 지구 궤도(MEO)에 있는 통상 24개의 위성과 위성을 모니터링하고 제어하기 위한 전 세계 지상 네트워크로 구성됩니다. GPS 프로그램은 1970년대 초에 시작되었으며 시스템은 1995년에 완전히 작동한다고 선언되었습니다. 국제적으로 GPS위성그룹(GPS constellation)은 글로벌 항법 위성 시스템(GNSS)이라고 하는 항법 위성의 중 하나의 구성 요소입니다. 이 장에서는 공간 및 제어 세그먼트(CS), 신호, 서비스 및 성능을 포함하여 GPS의 개요를 설명합니다
+
+</p>
+<p>
+  GPS constellation는 통상 26,559km[7.5]의 궤도 반경을 가진 원형 궤도에 있는 24개의 위성으로 구성됩니다(표 7.1).
+  위성 궤도는 적도면에 대해 55도 기울어져 있습니다. 6개의 궤도면에는 4개의 위성들이 포함되어 있으며, 이 궤도면들은 지구 자전축을 중심으로 동일한 간격을 두고 있습니다. 6개의 궤도 평면은 A에서 F까지 문자 지정자로 식별됩니다. 특정 시기(epoch)때 24개 위성의 위치는 슬롯이라고 하며 문자-숫자 조합으로 지정됩니다(예: A 비행기. 1993년 7월 1일 00h 00m 00s 협정 세계시(UTC)의 공칭 슬롯 위치는 그림 7.1[7.5]에 나와 있습니다. 이 시기(epoch)의 그리니치 시간 각도는 18h 36m 14:4s입니다. 그림 7.1에서 각 궤도면 내의 4개의 슬롯이 비대칭적으로 간격이 있는걸 알 수 있습니다.
+
+</p>
+<p>
+  이러한 위성의 배치는 위성의 고장에 대비하여 결정되었습니다[7.6]. 위성 궤도 고도는 위성의 배치가 일정부분에 집중되어 있을때 초기 시스템 테스트를 지원하기 위해 선택되었습니다. 공칭 고도는 위성지상추적(ground track)이 매일 반복되도록 항성하루의 반(약 11시간 58m)의 궤도 주기를 제공합니다(그림 7.2). 반복되는 지상추적은 특정 GPS 응용 프로그램을 계획하는 데 편리하지만 지구의 불균일한 중력장으로 인해 각 GPS 위성간에 공진력이 발생하여 더 빈번한 위성 스테이션 유지 기동이 필요합니다.. 현재의 위성배치(위성지도) 디자인은 많은 역사적인 제약조건의 영향을 받았습니다. 챌린저호의 재앙 이후 사용하지 않게 된 스페이스셔틀을 이용한 GPS 위성발사 계획 또한 이에 해당됩니다.
+</p>
+  <p>
+    1978년부터 현재까지 67개의 GPS 위성이 성공적으로 궤도에 진입했으며 이 중 31개가 현재 작동 중입니다. 여분의(Redundant) 원자 시계인 루비듐 및(또는) 세슘은 같은 시간에 정확하게 동기화된 신호가 방송될 수 있도록 각 위성의 핵심 구성 요소입니다. 위성의 기능은 시간이 지남에 따라 크기, 무게 및 비용이 증가하면서 더 많아졌습니다. 각 위성 유형의 몇 가지 주요 특성은 표 7.3에 나열되어 있습니다.
+  </p>
+
+
+</div>
+</div>
+<input type="button" value="night" onclick="
+var target = document.querySelector('body')
+  if(this.value ==='night'){
+  target.style.backgroundColor='black';
+  target.style.color='white';
+  this.value ='day';
+}
+  else {
+    target.style.backgroundColor='white';
+    target.style.color='black';
+    this.value ='night';
+}
+">
+
+</body>
+</html>

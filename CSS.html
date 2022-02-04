@@ -3,16 +3,30 @@
 <head>
   <title>WEB1 - CSS</title>
   <meta charset="utf-8">
+  <link rel="stylesheet" href="style.css">
 </head>
-<link rel="stylesheet" href="style.css">
 <body>
   <h1><a href="index.html">WEB</a></h1>
+  <input type="button" value="night" onclick="
+  var target = document.querySelector('body')
+    if(this.value ==='night'){
+    target.style.backgroundColor='black';
+    target.style.color='white';
+    this.value ='day';
+  }
+    else {
+      target.style.backgroundColor='white';
+      target.style.color='black';
+      this.value ='night';
+  }
+  ">
   <div id="grid">
-    <ol>
-      <li><a href="html.html" >HTML</a></li>
-      <li><a href="CSS.html">CSS</a></li>
-      <li><a href="JavaScript.html">JavaScript</a></li>
-    </ol>
+  <ol>
+    <li><a href="html.html">HTML</a></li>
+    <li><a href="CSS.html">CSS</a></li>
+<li><a href="JavaScript.html">JavaScript</a></li>
+<li><a href="gps1.html">GPS 공부</a></li>
+  </ol>
   <!--
   <h1><a href="index.html"><font color="red">WEB</font></a></h1>
   <ol>
